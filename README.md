@@ -9,10 +9,11 @@
 
 ## 版本一
 ### 使用说明
-1. 需要在本地安装r与mathematica
-2. 需要在r中安装`forecast`这个函数包，因为后期会调用
-3. 打开文件，找到下面这段代码：`InstallR["RHomeLocation"->"E:\\r_language\\R-3.3.3"]`，将`"E:\\r_language\\R-3.3.3"`改成自己r文件所在位置
+1. 需要在本地安装r与mathematica。
+2. 需要在r中安装`forecast`这个函数包，因为后期会调用。
+3. 打开文件，找到下面这段代码：`InstallR["RHomeLocation"->"E:\\r_language\\R-3.3.3"]`，将`"E:\\r_language\\R-3.3.3"`改成自己r文件所在位置。
 看下图中方框中所示：
+
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_153023.png)
 
 ### 使用方法
@@ -22,7 +23,7 @@
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_153610.png)
 
 #### 导入数据画出时序图
-使用函数`ListPlot`来画出时序图
+使用函数`ListPlot`来画出时序图。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_153844.png)
 
 #### 画出自相关和偏自相关图
@@ -38,29 +39,26 @@
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_154249.png)
 
 #### 拟合模型，进行模型的比较
-使用函数`arima`和`css`或`Arima`和`CSS`来进行模型的拟合和判断
+使用函数`arima`和`css`或`Arima`和`CSS`来进行模型的拟合和判断。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_154517.png)
 
 #### 画出模型的预测
-使用`forecast`来进行预测，使用`forecastPlot`来画出预测的图像
+使用`forecast`来进行预测，使用`forecastPlot`来画出预测的图像。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_154854.png)
 
 #### 只画出模型的预测部分
-使用函数`forecastPlotNData`只画出模型的预测部分
+使用函数`forecastPlotNData`只画出模型的预测部分。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_155306.png)
 
 #### 得到预测的值和其置信区间
-使用函数`forecastTable`得到预测的数值和预测区间的数值，以表格形式返回
+使用函数`forecastTable`得到预测的数值和预测区间的数值，以表格形式返回。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_155708.png)
 
 #### 对拟合的模型进行残差分析
-使用函数`residualAnalysis`来进行残差分析
+使用函数`residualAnalysis`来进行残差分析。
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_160012.png)
 
 ### 其他
 - 以上是一些函数的使用方法，还有一些函数的用法大家可以自己发掘。
-- 希望大家指出错误
+- 希望大家指出错误。
 - 2017/5/16
-
-
-
