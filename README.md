@@ -60,6 +60,8 @@
 ![](http://ootgubexr.bkt.clouddn.com/snipaste_20170516_160012.png)
 
 ### 其他
+- http://www.wolfram.com/products/applications/updates/availablethird.html -- 一些其他的函数包
+- https://mathematica.meta.stackexchange.com/tags/packages/hot   -- 一些讨论的帖子
 - 以上是一些函数的使用方法，还有一些函数的用法大家可以自己发掘。
 - 希望大家指出错误。
 - 2017/5/16
